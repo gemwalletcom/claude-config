@@ -1,6 +1,6 @@
 # Claude Code Settings
 
-Shared Claude Code configuration for the development team.
+Shared [Claude Code configuration](https://docs.anthropic.com/en/docs/claude-code/settings) for the development team.
 
 ## Usage
 

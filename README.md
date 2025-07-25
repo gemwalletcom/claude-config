@@ -45,6 +45,7 @@ The `commands/` directory contains shared slash commands:
 The `agents/` directory contains custom agent definitions:
 
 - `code-quality-enforcer.md` - Agent for linting, fixing issues, formatting, and running tests
+- `code-reviewer.md` - Agent for reviewing code quality, best practices, and project standards
 
 ### Environment Variables
 

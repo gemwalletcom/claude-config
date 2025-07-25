@@ -10,7 +10,8 @@ setup:
             mkdir -p ~/.claude && \
             cp settings.json ~/.claude/settings.json && \
             cp commands/*.md ~/.claude/ && \
-            echo "✅ Settings and commands copied to ~/.claude/"; \
+            cp agents/*.md ~/.claude/ && \
+            echo "✅ Settings, commands, and agents copied to ~/.claude/"; \
         else \
             echo "ℹ️  Keeping existing ~/.claude folder"; \
         fi; \
@@ -18,7 +19,8 @@ setup:
         mkdir -p ~/.claude && \
         cp settings.json ~/.claude/settings.json && \
         cp commands/*.md ~/.claude/ && \
-        echo "✅ Settings and commands copied to ~/.claude/"; \
+        cp agents/*.md ~/.claude/ && \
+        echo "✅ Settings, commands, and agents copied to ~/.claude/"; \
     fi
 
 # Show current settings

@@ -17,13 +17,9 @@ just setup
 Copy files to your Claude Code settings directory:
 
 ```bash
-# macOS/Linux
 cp settings.json ~/.config/claude-code/settings.json
-cp -r commands ~/.config/claude-code/
-
-# Windows
-cp settings.json %APPDATA%\claude-code\settings.json
-cp -r commands %APPDATA%\claude-code\
+cp commands/*.md ~/.config/claude-code/
+cp agents/*.md ~/.config/claude-code/
 ```
 
 ## Configuration
@@ -43,6 +39,12 @@ The settings file includes pre-approved permissions for common development tasks
 The `commands/` directory contains shared slash commands:
 
 - `/push_pr` - Automated workflow to create branch, commit changes, and create PR
+
+### Agents
+
+The `agents/` directory contains custom agent definitions:
+
+- `code-quality-enforcer.md` - Agent for linting, fixing issues, formatting, and running tests
 
 ### Environment Variables
 
